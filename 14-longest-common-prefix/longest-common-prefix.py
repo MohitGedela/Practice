@@ -5,7 +5,7 @@ class Solution:
 
         if not strs or "" in strs:
             return ""
-
+#
         if len(strs) == 1:
             return strs[0]
 
