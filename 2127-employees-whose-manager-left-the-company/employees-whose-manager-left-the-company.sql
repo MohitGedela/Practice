@@ -4,7 +4,6 @@ WHERE e.salary < 30000
   AND e.manager_id IS NOT NULL
   AND NOT EXISTS (
       SELECT *
-      
       FROM Employees m
       WHERE m.employee_id = e.manager_id
   )
